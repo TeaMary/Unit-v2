@@ -1,0 +1,121 @@
+body{
+	background: #ffffff;
+}
+img {
+	height: auto;
+	max-width: 100%;
+}
+.content{
+	margin-top: 50px;
+}
+.product {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #c0c0c0;
+	height: 300px;
+	overflow: hidden;
+	padding: 25px 15px;
+	position: relative;
+	text-align: center;
+	transition: all 0.5s ease 0s;
+	margin-bottom: 20px;
+}
+.product:hover {
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+.product-img {
+	height: 200px;
+}
+.product-title a {
+	color: #000;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.product-desc {
+	max-height: 60px;
+	overflow: hidden;
+}
+.product-price {
+	bottom: 25px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	color: #FFA502;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.btn btn-warning{
+	position: x 200px;
+	position: y 200px;
+}
+
+
+
+.description{
+    position: absolute;
+    top: 35%;
+	left: 35%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{
+ color:#ffffff ;
+ margin-left:-55%;
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:10px  solid #F97300;
+ background:#F97300;
+ color:#fff;
+ font-size: 35px;
+ left:50%;
+}
+
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+   }
+   .about h1{
+	color:#F97300;
+	margin: 2em;
+   }
+   .about img{
+	height: 100%;
+	   width: 100%;
+	   border-radius: 50%
+   }
+   .about span{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+   }
+   .about .desc{
+	padding: 2em;
+	border-left:4px solid #10828C;
+   }
+   .about .desc h3{
+	color: #10828C;
+   }
+   .about .desc p{
+	line-height:2;
+	color:#888;
+   }
+   
+.justify-content-center {
+    justify-content: center!important;
+}
+
+
+.navbar{ background:#F97300;}
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background:#fff !important;}
